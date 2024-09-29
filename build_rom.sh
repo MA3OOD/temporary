@@ -1,3 +1,4 @@
+#!/bin/bash
 # sync rom
 repo init -u https://github.com/crdroidandroid/android.git -b 14.0 --git-lfs
 git clone https://github.com/Masood-J/local_manifests.git --depth 1  -b A14-EF .repo/local_manifests
